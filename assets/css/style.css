@@ -1,0 +1,158 @@
+img
+{
+    height: 250px;
+}
+.container
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 575px;
+    position: center;
+    background: #ffffff;
+    margin-top: 10px;
+}
+#name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* position: absolute; */
+    margin-top: -10px;
+    /* margin-left: 185px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 26px;
+    height: 75px
+}
+a
+{
+    color: #777777;
+}
+h1
+{
+    margin-top: 10px;
+    color: #4aaaa5;   
+}
+.navlink1
+{
+    /* text-align: right; */
+    /* margin-left: 500px; */
+    word-spacing: 20px;
+}
+.navlink2
+{
+    word-spacing: 20px;
+}
+.navlink3
+{
+    word-spacing: 20px;
+}
+.image
+{
+    width: 200px;
+    height: 150px;
+
+}
+#img1
+{
+    width: 190px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 4px;
+    background: #4aaaa5;
+}
+#img2
+{
+    width: 190px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 4px;
+    background: #4aaaa5;
+}
+#img3
+{
+    width: 190px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 20px;
+    background: #4aaaa5;
+}
+#img4
+{
+    width: 190px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 4px;
+    background: #4aaaa5;
+}
+#img5
+{
+    width: 190px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 4px;
+    background: #4aaaa5;
+}
+#foot2
+{
+    height: 50px;
+      border-style: inset;
+      border-color: aqua;
+      border-width: 8px 0px 0px 0px;
+      margin-top: 1px;
+      color: #ffffff;
+      background: #777777;
+    }
+    #submit
+    {
+        background: #4aaaa5;
+        color: #ffffff;
+    }
+    h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #777777;
+        font-size: 20px
+    }
+      @media screen and (max-width: 980px) {
+        body {
+            background: #ffffff;
+        }}
+        @media screen and (max-width: 768px) {
+            body {
+                background: #777777;
+            }
+            input
+            {
+                width: 90%;
+            }
+            textarea
+            {
+                width:90%;
+            }
+            .container
+                    {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    height: 900px;
+                    position: center;
+                    margin-top: 10px;
+                    }
+        }
+
+            @media screen and (max-width: 640px) {
+                body {
+                    background: #4aaaa5;
+                }
+                    .container
+                    {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    height: 900px;
+                    position: center;
+                    margin-top: 10px;
+                    }
+                }
+    
