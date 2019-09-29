@@ -1,6 +1,6 @@
 #bodyid
 {
-    background-image: url('/assets/images/beige-tiles.png')
+    background-image: url('/assets/images/beige-tiles.png');
 }
 img
 {
@@ -124,11 +124,13 @@ h1
         font-size: 20px
     }
       @media screen and (max-width: 980px) {
-        body {
+        #bodyid {
+            background-image: url('/assets/images/beige-tiles.png');
             background: #ffffff;
         }}
         @media screen and (max-width: 768px) {
-            body {
+            #bodyid {
+                background-image: none;
                 background: #777777;
             }
             input
@@ -149,7 +151,8 @@ h1
         }
 
             @media screen and (max-width: 640px) {
-                body {
+                #bodyid {
+                    background-image: none;
                     background: #4aaaa5;
                 }
                     .container
